@@ -1,4 +1,4 @@
-# Install 
+## Install 
 To install this app, pull down the repo from https://github.com/bumpylumps/UTS-assessment + npm install
 
 
@@ -26,11 +26,11 @@ I had the most trouble with the getAssociatedContacts function, as I couldn't ge
  4) Take those industry properties and append them to each relevant deal in the deals cache
 
 After updating each deal in the deals cache with an industry, I would have then looped through that cache again to populate an object for each industry and store them in an array: 
-eg. { 
+eg. ```{ 
 	industry name: ${industry},
 	average amounts : xxx
 	average days: xxx 
- }
+ }```
 
  That array would then be used to populate a console.table() to display the proper results.
 
@@ -38,7 +38,7 @@ eg. {
 
  If there is time for feedback I would absolutely love to talk through the code with someone as I'm curious about different approaches to the problems that getAssociatedContacts() presents. It's not often that I try something crazy like an async request with multiple calls and I'm most likely going to be brainstorming alternatives for a while. Thank you to everyone at UTS who sat down with me in those interviews, and thank you for taking the time to check this project out.
 
-
+---
 
 
 # Notes 
