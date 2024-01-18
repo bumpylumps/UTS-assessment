@@ -1,0 +1,16 @@
+{
+  "name": "alex-fulop-assessment",
+  "version": "1.0.0",
+  "description": "code assessment for UTS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BumpyLumps",
+  "license": "ISC",
+  "dependencies": {
+    "@hubspot/api-client": "^10.2.0",
+    "axios": "^1.6.5"
+  }
+}
